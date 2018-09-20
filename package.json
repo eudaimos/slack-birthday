@@ -1,0 +1,24 @@
+{
+  "name": "slack-birthday",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "bnr start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "betterScripts": {
+    "start": "nodemon src/birthday.js"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@slack/client": "^4.6.0",
+    "@slack/events-api": "^2.1.0",
+    "dotenv": "^6.0.0"
+  },
+  "devDependencies": {
+    "better-npm-run": "^0.1.1",
+    "nodemon": "^1.18.4"
+  }
+}
